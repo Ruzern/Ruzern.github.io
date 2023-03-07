@@ -25,6 +25,21 @@ nav {
     background-color: #181823;
 }
 
+.navlinks{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nava {
+
+    color: antiquewhite;
+    display: inline;
+
+
+}
+
 a {
     text-decoration: none;
     text-emphasis-color: inherit;
@@ -49,19 +64,30 @@ img {
     margin-bottom: 5px;
     border-radius: 5px;
     border: 2px solid #181823;
+    overflow: hidden;
 
 }
 
-h4 {}
 
 
+.img-an:hover{
+
+    transform: scale(1.2);
+
+}
 
 .fondo {
     background-color: white;
 }
 
 .contenedorprop {
+    padding-top: 20px;
     background-color: #C0EEF2;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
 }
 
 .infolist {
